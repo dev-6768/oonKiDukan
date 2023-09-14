@@ -1,7 +1,9 @@
 require('dotenv').config()
 const express = require('express')
-const {StatusCodes} = require('http-status-codes')
 const app = express()
+const connectDB=require('./config/db')
+
+connectDB();
 
 app.use(express.json())
 
@@ -13,9 +15,15 @@ app.get("/about", (req, res) => {
     res.send("Oon ki dukan hai bhai")    
 })
 
+const user=require('./routes/userRoutes.js')
+app.use("/api",user);
+
+const inventory=require('./routes/woolInventoryRoutes.js')
+app.use("/api",inventory);
+
 const start = async(req, res) => {
     try {
-        app.listen(process.env.PORT, console.log("app is listening on port : " + String(process.env.PORT)))
+        app.listen(4000, console.log("app is listening"))
     }
 
     catch(err) {
