@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>911073199377-44nb5rkj88pcru93oj7ba096ehbs92po.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.911073199377-44nb5rkj88pcru93oj7ba096ehbs92po</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCQkt3jsHE1DKDyljr-o19TUKDAICiL8y4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>911073199377</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.myGardeningApp</string>
+	<key>PROJECT_ID</key>
+	<string>mygardeningapp-afc3f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mygardeningapp-afc3f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:911073199377:ios:442e11cd7f340e7f8d38b0</string>
+</dict>
+</plist>

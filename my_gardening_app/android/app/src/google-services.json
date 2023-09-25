@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "911073199377",
+    "project_id": "mygardeningapp-afc3f",
+    "storage_bucket": "mygardeningapp-afc3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911073199377:android:ba451ab3840fb2918d38b0",
+        "android_client_info": {
+          "package_name": "com.example.my_gardening_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911073199377-qpsrlaitfu6h5cic3s318hv1f8r5qnuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARHoOXoJUiw8DjfUimX1ZH9PD0VvkuSEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911073199377-qpsrlaitfu6h5cic3s318hv1f8r5qnuk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
